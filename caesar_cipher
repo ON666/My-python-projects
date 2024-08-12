@@ -1,5 +1,4 @@
 def caesar_cipher(text, shift, mode='encrypt'):
-   
     result = []
     shift = shift % 26  
     if mode == 'decrypt':
